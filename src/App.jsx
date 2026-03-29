@@ -12,7 +12,6 @@ import PiePagina from "./componentes/PiePagina";
 import FondoDecorativo from "./componentes/FondoDecorativo";
 import {
   datosMarca,
-  enlacesNavegacion,
   destacadosPortada,
   historiaMarca,
   beneficiosPrincipales,
@@ -92,7 +91,6 @@ function Aplicacion() {
         nombreMarca={datosMarca.nombre}
         rubroMarca={datosMarca.rubro}
         logoMarca={datosMarca.logo}
-        enlacesNavegacion={enlacesNavegacion}
         enlaceWhatsApp={enlaceWhatsApp}
       />
 
